@@ -126,7 +126,8 @@ public class AnvilListener implements Listener {
                 || enchantment.equals(Enchantment.SILK_TOUCH)
                 || enchantment.equals(Enchantment.ARROW_INFINITE)
                 || enchantment.equals(Enchantment.CHANNELING)
-                || enchantment.equals(Enchantment.SOUL_SPEED)) {
+                || enchantment.equals(Enchantment.SOUL_SPEED)
+                || enchantment.equals(Enchantment.SWIFT_SNEAK)) {
             return 8;
         } else if (enchantment.equals(Enchantment.BINDING_CURSE)
                 || enchantment.equals(Enchantment.VANISHING_CURSE)) {
